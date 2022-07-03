@@ -1,0 +1,125 @@
+a{
+	text-decoration: none;
+}
+.full-wraper{
+	width: 100%;
+	clear: both;
+}
+.wraper{
+	width: 1100px;
+	margin: 0 auto;
+}
+.logo img{
+	width: 140px;
+	padding: 10x 0;
+	float: left;
+}
+.manu{
+	float: left;
+	width: 1700px;
+	text-align: right;
+	margin-top: 90px;
+}
+.manu a{
+	color: #000;
+	padding: 10px;
+	font-size: 24px;
+}
+.reg{
+	float: right;
+	width: 200px;
+	margin-top: 15px;
+	text-align: right;
+}
+.reg a{
+	color: #000;
+	padding: 10px;
+	font-size: 24px;
+}
+/*============ baner ================*/
+
+.banner-img{
+	background-image: url('baground2.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 500px 0;
+}
+.banner-text{
+	text-align: center;
+}
+.banner-text h1,p{
+	color: red;
+}
+/*============ service ===============*/
+
+.Service-item p{
+	color: black
+}
+.Service-item h1{
+	color: black;
+}
+.Service-item{
+	width: 350px;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+	padding: 20px 0; 
+	border: 1px solid #777;
+	margin-left: 10px;
+}
+.mr0{
+	margin-left: 0;
+}
+.Service-item p{
+	display: inline-block;
+}
+
+/*============ Sign up ===============*/
+.main-div{
+	background-image: url(8.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 125px 0;
+}
+.main-div-in{
+	background-image: url(8.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 300px 0;
+}
+.table {
+	margin: 0 auto;
+	color: white;
+}
+h1{
+	color: white;
+	text-align: center;
+}
+.table tr td{
+	padding: 20px 0;
+	font-size: 22px;
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+}
+.table tr td{
+	color: #fff;
+	background: transparent;
+	border: none;
+	border-bottom: 3px solid #777;
+}
+.table tr td button{
+	height: 35px;
+	background: transparent;
+	width: 85px;
+	border: 2px solid;
+	font-weight: 500;
+	color: #fff;
+	transition: .4s;
+}
+.table tr td button:hover{
+	background: #fff;
+	color: #000;
+}
